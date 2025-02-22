@@ -9,7 +9,7 @@ namespace Carros
 
         public Motor(int potencia)
         {
-            this.potencia = potencia
+            this.potencia = potencia;
         }
 
         string Ligar()

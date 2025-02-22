@@ -2,10 +2,15 @@
 
 
 
+using Carros;
+
 class Program
 {
     static void Main(string{} args)
     {
-        CompositionRoot compositionRoot = 
+        CompositionRoot compositionRoot = new CompositionRoot();
+
+        Carro carro = compositionRoot.
+        XJet xjet = compositionRoot.GetXJet()
     }
 }
