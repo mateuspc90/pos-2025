@@ -28,7 +28,7 @@ public class Pedido
         decimal total = 0;
         foreach (var produto in Produtos)
         {
-            total += produto.Getpreco();
+            total += produto.GetPreco();
         }
         return total;
     }
@@ -40,7 +40,7 @@ public class Pedido
 
          foreach (var produto in Produtos)
         {
-            Console.WriteLine($"- {produto.GetNome()}, R${produto.Getpreco()}");
+            Console.WriteLine($"- {produto.GetNome()}, R${produto.GetPreco()}");
         }
 
         var total = CalcularTotal();
