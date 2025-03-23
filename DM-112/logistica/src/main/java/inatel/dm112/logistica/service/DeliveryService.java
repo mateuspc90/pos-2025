@@ -25,6 +25,10 @@ public class DeliveryService {
     @Autowired
     private EmailContentGenerator emailContentGenerator;
     
+    public List<Order> getAllDeliveries() {
+        return orderRepository.findAll(); 
+    }
+
     public List<Order> getPendingDeliveries() {
         return orderRepository.findPendingDeliveries();
     }

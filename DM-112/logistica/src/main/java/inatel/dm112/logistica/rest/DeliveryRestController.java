@@ -22,13 +22,19 @@ public class DeliveryRestController {
     @Autowired
     private DeliveryService deliveryService;
     
-    @GetMapping("/pending")
+    @GetMapping("/")  // Mostra todos os pedidos na lista de entregas
+    public ResponseEntity<List<Order>> getAllDeliveries() {
+        List<Order> allDeliveries = deliveryService.getAllDeliveries();
+        return new ResponseEntity<>(allDeliveries, HttpStatus.OK);
+    }
+
+    @GetMapping("/pending") // Mostra todos os pedidos pendentes de entrega
     public ResponseEntity<List<Order>> getPendingDeliveries() {
         List<Order> pendingDeliveries = deliveryService.getPendingDeliveries();
         return new ResponseEntity<>(pendingDeliveries, HttpStatus.OK);
     }
     
-    @PostMapping("/register")
+    @PostMapping("/register") // Registra a entrega de um pedido
     public ResponseEntity<Order> registerDelivery(@RequestBody DeliveryRegistrationDTO deliveryData) {
         Order deliveredOrder = deliveryService.registerDelivery(deliveryData);
         return new ResponseEntity<>(deliveredOrder, HttpStatus.OK);
