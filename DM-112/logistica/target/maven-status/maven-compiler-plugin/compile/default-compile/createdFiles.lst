@@ -1,0 +1,14 @@
+inatel/dm112/logistica/service/DeliveryService.class
+inatel/dm112/logistica/model/DeliveryRegistrationDTO.class
+inatel/dm112/logistica/LogisticaApplication.class
+inatel/dm112/logistica/adapter/MailData.class
+inatel/dm112/logistica/rest/DeliveryRestController.class
+inatel/dm112/logistica/rest/support/UtilityException.class
+inatel/dm112/logistica/model/Order.class
+inatel/dm112/logistica/service/EmailContentGenerator.class
+inatel/dm112/logistica/service/MailService.class
+inatel/dm112/logistica/adapter/impl/MailAdapterImpl.class
+inatel/dm112/logistica/model/MailRequestData.class
+inatel/dm112/logistica/adapter/MailAdapter.class
+inatel/dm112/logistica/repository/OrderRepository.class
+inatel/dm112/logistica/config/DataInitializer.class

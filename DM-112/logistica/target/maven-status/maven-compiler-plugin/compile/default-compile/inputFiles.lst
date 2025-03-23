@@ -1,0 +1,14 @@
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/LogisticaApplication.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/adapter/MailData.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/adapter/impl/MailAdapterImpl.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/service/MailService.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/rest/support/UtilityException.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/repository/OrderRepository.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/adapter/MailAdapter.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/rest/DeliveryRestController.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/service/EmailContentGenerator.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/model/MailRequestData.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/service/DeliveryService.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/config/DataInitializer.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/model/DeliveryRegistrationDTO.java
+/Users/mateus/Documents/pos-2025/DM-112/logistica/src/main/java/inatel/dm112/logistica/model/Order.java
