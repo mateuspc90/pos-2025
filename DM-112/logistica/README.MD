@@ -47,6 +47,7 @@ curl -X POST http://localhost:9090/api/delivery/register \
   -d '{"orderNumber": 1001, "receiverCpf": "123.456.789-00"}'
 ```
 
+O e-mail de confirmação será enviado para o `customerEmail` referente ao pedido escolhido. Neste exemplo(orderNumber:1001), o e-mail `mateuspc90@hotmail.com`
 
 ## E-mail Service
 
