@@ -26,8 +26,7 @@ public class MailAdapterImpl implements MailAdapter {
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
         
-        // Criando a sessão com autenticação
-        // Para Gmail, você precisará de um email e senha de aplicativo (não senha normal)
+        // Criando a sessão com autenticação com email e senha de aplicativo
         Session session = Session.getInstance(props, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
                 return new PasswordAuthentication(mailData.getFrom(), mailData.getFromPassword());

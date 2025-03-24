@@ -1,12 +1,7 @@
 package inatel.dm112.logistica.service;
 
-//import java.io.ByteArrayOutputStream;
 import java.time.format.DateTimeFormatter;
 
-// import org.apache.pdfbox.pdmodel.PDDocument;
-// import org.apache.pdfbox.pdmodel.PDPage;
-// import org.apache.pdfbox.pdmodel.PDPageContentStream;
-// import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.springframework.stereotype.Component;
 
 import inatel.dm112.logistica.model.Order;

@@ -63,7 +63,7 @@ public class DeliveryService {
     
     private void sendDeliveryConfirmationEmail(Order order) {
         try {
-            // Gera o conteúdo do e-mail (PDF ou HTML)
+            // Gera o conteúdo do e-mail - Texto simples
             String emailContent = emailContentGenerator.generateDeliveryConfirmationContent(order);
             
             // Prepara os dados para o serviço de e-mail
@@ -76,7 +76,7 @@ public class DeliveryService {
             // Envia o e-mail
             mailService.sendMail(mailReq);
         } catch (Exception e) {
-            // Loga o erro, mas não impede o registro da entrega
+            // Loga o erro
             System.err.println("Erro ao enviar e-mail de confirmação: " + e.getMessage());
             e.printStackTrace();
         }

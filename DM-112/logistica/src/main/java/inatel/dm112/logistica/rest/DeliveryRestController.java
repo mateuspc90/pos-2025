@@ -22,7 +22,7 @@ public class DeliveryRestController {
     @Autowired
     private DeliveryService deliveryService;
     
-    @GetMapping("/")  // Mostra todos os pedidos na lista de entregas
+    @GetMapping("")  // Mostra todos os pedidos na lista de entregas
     public ResponseEntity<List<Order>> getAllDeliveries() {
         List<Order> allDeliveries = deliveryService.getAllDeliveries();
         return new ResponseEntity<>(allDeliveries, HttpStatus.OK);
